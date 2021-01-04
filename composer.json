@@ -1,0 +1,21 @@
+{
+    "name": "yireo/shopware6-twig-inspector",
+    "description": "Skeleton plugin",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yireo\\TwigInspector\\": "src/"
+        }
+    },
+    "require": {
+        "oro/twig-inspector": "1.0.x-dev"
+    },
+    "extra": {
+        "shopware-plugin-class": "Yireo\\TwigInspector\\YireoTwigInspector",
+        "label": {
+            "de-DE": "Skeleton plugin",
+            "en-GB": "Skeleton plugin"
+        }
+    }
+}
