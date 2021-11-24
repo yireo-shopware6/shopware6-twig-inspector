@@ -9,7 +9,7 @@
         }
     },
     "require": {
-        "oro/twig-inspector": "1.0.x-dev"
+        "oro/twig-inspector": "^1.0.0"
     },
     "extra": {
         "shopware-plugin-class": "Yireo\\TwigInspector\\YireoTwigInspector",
