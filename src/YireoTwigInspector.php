@@ -11,7 +11,7 @@ class YireoTwigInspector extends Plugin
     public function getAdditionalBundles(AdditionalBundleParameters $parameters): array
     {
         return [
-            new OroTwigInspectorBundle
+            //new OroTwigInspectorBundle
         ];
     }
 }
